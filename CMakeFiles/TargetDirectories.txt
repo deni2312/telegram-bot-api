@@ -1,0 +1,14 @@
+/home/travis/build/StefanoBelli/telegram-bot-api/CMakeFiles/install/strip.dir
+/home/travis/build/StefanoBelli/telegram-bot-api/CMakeFiles/install/local.dir
+/home/travis/build/StefanoBelli/telegram-bot-api/CMakeFiles/docs.dir
+/home/travis/build/StefanoBelli/telegram-bot-api/CMakeFiles/edit_cache.dir
+/home/travis/build/StefanoBelli/telegram-bot-api/CMakeFiles/rebuild_cache.dir
+/home/travis/build/StefanoBelli/telegram-bot-api/CMakeFiles/install.dir
+/home/travis/build/StefanoBelli/telegram-bot-api/CMakeFiles/list_install_components.dir
+/home/travis/build/StefanoBelli/telegram-bot-api/src/CMakeFiles/install/strip.dir
+/home/travis/build/StefanoBelli/telegram-bot-api/src/CMakeFiles/install/local.dir
+/home/travis/build/StefanoBelli/telegram-bot-api/src/CMakeFiles/edit_cache.dir
+/home/travis/build/StefanoBelli/telegram-bot-api/src/CMakeFiles/tgbot.dir
+/home/travis/build/StefanoBelli/telegram-bot-api/src/CMakeFiles/rebuild_cache.dir
+/home/travis/build/StefanoBelli/telegram-bot-api/src/CMakeFiles/install.dir
+/home/travis/build/StefanoBelli/telegram-bot-api/src/CMakeFiles/list_install_components.dir

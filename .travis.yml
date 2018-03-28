@@ -1,0 +1,30 @@
+language: cpp
+dist: trusty
+compiler:
+   - gcc
+   - clang
+
+addons:
+   apt:      
+      packages:
+         - cmake
+         - doxygen
+         - libjsoncpp-dev
+
+script:
+   - cmake . -DCMAKE_BUILD_TYPE="Release" -DCMAKE_CXX_FLAGS="-Wall -Wextra -O2 -finline-functions"
+   - make -j3
+
+before_deploy:
+   - make docs
+   - rm -rfv "*.cmake CMakeFiles CMakeCache.txt Makefile lib 
+        src scripts include README.md .travis.yml 
+        .gitignore Doxyfile CMakeLists.txt"
+   - rm -r docs/latex
+   - mv docs/html/* .
+
+deploy:
+   provider: pages
+   skip_cleanup: true
+   github_token: $GITHUB_TOKEN
+
